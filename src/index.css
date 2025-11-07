@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
+    --background: 0 0% 100%;
     --foreground: 0 0% 13%;
 
     --card: 0 0% 100%;
@@ -17,35 +17,26 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 13%;
 
-    --primary: 211 100% 50%;
+    --primary: 228 45% 28%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 92% 63%;
-    --secondary-foreground: 0 0% 13%;
+    --secondary: 0 0% 13%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 211 100% 50%;
+    --accent: 228 45% 28%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 211 100% 50%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 228 45% 28%;
 
     --radius: 0.75rem;
-    
-    --gradient-hero: linear-gradient(120deg, hsl(211 100% 50%), hsl(191 100% 50%));
-    --card-yellow: 45 92% 63%;
-    --card-blue: 211 100% 50%;
-    --card-black: 0 0% 11%;
-    --card-green: 162 79% 36%;
-    --card-purple: 250 64% 63%;
-    --shadow-elegant: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -112,5 +103,6 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
   }
 }
