@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <GraduationCap className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold text-foreground">Excellence College</span>
+            <span className="text-2xl font-bold text-foreground">Madras Engineering College</span>
           </div>
 
           {/* Desktop Navigation */}
