@@ -1,14 +1,12 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import ProgramsSection from "@/components/ProgramsSection";
+import Hero from "@/components/Hero";
+import MovingCards from "@/components/MovingCards";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <ProgramsSection />
+      <Hero />
+      <MovingCards />
       <Footer />
     </div>
   );

@@ -1,26 +1,23 @@
-import { MapPin } from "lucide-react";
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[hsl(211,100%,50%)] to-[hsl(191,100%,50%)]">
       {/* Top Right Info */}
       <div className="absolute top-5 right-8 text-right text-white z-20">
         <span className="block text-sm font-semibold mb-1">TNEA Counselling Code: 1203</span>
-        <span className="flex items-center justify-end gap-1 text-sm font-semibold">
-          <MapPin className="w-4 h-4" />
-          Vellarai, Tambaram
+        <span className="block text-sm font-semibold">
+          📍 Vellarai, Tambaram
         </span>
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 py-32 relative z-10 text-center">
-        <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 animate-fade-in">
           Madras Engineering College
         </h1>
-        <p className="text-2xl md:text-3xl text-white font-semibold mb-4 max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100">
+        <p className="text-2xl md:text-3xl text-white font-semibold mb-4 max-w-4xl mx-auto">
           Your Tech Journey Begins @ Madras Engineering College.
         </p>
-        <p className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
+        <p className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto leading-relaxed">
           India's 1st Engineering College Specialising in IT, Computer Science, Data Science, Artificial Intelligence, 
           Machine Learning, Cybersecurity & Business Systems.
         </p>
