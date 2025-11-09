@@ -17,10 +17,18 @@ const Hero = () => {
         <p className="text-2xl md:text-3xl text-white font-semibold mb-4 max-w-4xl mx-auto">
           Your Tech Journey Begins @ Madras Engineering College.
         </p>
-        <p className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-white/95 max-w-4xl mx-auto leading-relaxed mb-8">
           India's 1st Engineering College Specialising in IT, Computer Science, Data Science, Artificial Intelligence, 
           Machine Learning, Cybersecurity & Business Systems.
         </p>
+        <div className="mt-8">
+          <a
+            href="/login"
+            className="inline-block px-8 py-4 bg-white text-primary font-bold text-lg rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+          >
+            Get Started →
+          </a>
+        </div>
       </div>
     </section>
   );
